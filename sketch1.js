@@ -37,6 +37,7 @@ function gotData(data) {
   // only look at current results:
   var currentWeather = queryResult.currently;
   var day = queryResult.daily.data[0];
+  var hour = queryResult.hourly.data[10];
 
   // log current data
   PI = currentWeather.precipIntensity;
