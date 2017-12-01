@@ -1,0 +1,16 @@
+<html>
+<head>
+
+<script>
+	for(var i=0; i<10;i++){
+		console.log("Hello World" + i);
+	}
+
+</script>
+
+</head>
+<body>
+
+<h1>Hello World.</h1>
+</body>
+</html>
