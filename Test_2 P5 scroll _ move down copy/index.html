@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 	<body>
+		<h1>Invasive Species of the United States<h1>
+	</body> -->
+	
+	<title>Choropleth Tutorial - Leaflet</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="libraries/leaflet/leaflet.css"/>
+      <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+<script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script> 
+    <script src="libraries/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="us-states.js"></script>
+<style>
+	html, body {
+		height: 100%;
+		margin: 0;
+	}
+	/*styling for the div which will contain the map*/
+	#map { 
+		width: 800px; 
+		height: 475px;
+		left:20px;
+		top:60px; 
+	}
+	/*styling for the div which will contain the p5 canvas */
+	#container{
+		width:400px;
+		height:600px;
+		left:20px;
+		top:0px;
+		background-color: #DDDDDD;
+		position:fixed;
+	}
+/*	#container1{
+		width:1200px;
+		height:100px;
+		left:0px;
+		top:0px;
+		background-color: #DDDDDD;
+		position:fixed;
+	}*/	
+</style>
+</head>
+<body>
+<!-- <div id='container1'></div> -->
+<!-- container for map -->
+<div id='map'></div>
+<!-- container for p5 canvas -->
+<div id='container'></div>
+<!-- container for p5 canvas -->
+<!-- <div id='container1'></div> -->
+<script type="text/javascript" src="sketch.js"></script>
+<!-- <script type="text/javascript" src="sketch copy.js"></script> -->
+
+
+</body>
+</html>
